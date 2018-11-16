@@ -3,7 +3,7 @@ float rot=0;
 
 void setup(){
   size(innerWidth,innerHeight);
-  frameRate(30);
+  frameRate(60);
   smooth();
   background(0);
   img = loadImage("ibs.png");
