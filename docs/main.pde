@@ -16,7 +16,7 @@ void draw(){
   rotate(rot);
   tint(102);
   image(img, 0, 0);
-  rot += 0.06;
+  rot += 0.03;
   rotate(-rot);
   textAlign(CENTER);
   textSize(60);
