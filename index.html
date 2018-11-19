@@ -1,0 +1,43 @@
+<div id="ja-contents">
+    <meta http-equiv="refresh" content="0; URL='https://ja.ibstyle.tk'" />
+</div>
+<div id="en-contents">
+    <meta http-equiv="refresh" content="0; URL='https://en.ibstyle.tk'" />
+</div>
+
+<style>
+#ja-contents,
+#en-contents {
+    display: none;
+}
+</style>
+
+<script type="text/javascript" charset="utf-8">
+var browserLanguage = function() {
+    var ua = window.navigator.userAgent.toLowerCase();
+    try {
+        // chrome
+        if( ua.indexOf( 'chrome' ) != -1 ){
+            return ( navigator.languages[0] || navigator.browserLanguage || navigator.language || navigator.userLanguage).substr(0,2);
+        }
+        // それ以外
+        else{
+            return ( navigator.browserLanguage || navigator.language || navigator.userLanguage).substr(0,2);
+        }
+    }
+    catch( e ) {
+        return undefined;
+    }
+}
+// 日本語
+if( browserLanguage() == 'ja' ){
+    document.getElementById("ja-contents").style.display="block";
+}
+// 英語
+else if( browserLanguage() == 'en' ){
+    document.getElementById("en-contents").style.display="block";
+}
+else{
+    document.getElementById("en-contents").style.display="block";
+}
+</script>
