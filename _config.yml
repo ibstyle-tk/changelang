@@ -1,0 +1,89 @@
+# Site
+name: IB Style
+description: "楽しく、ラクに、プラスになるIB lifeを。"
+meta_description: "「楽しく、ラクに、プラスになるIB lifeを。」をテーマに、IB生活に役立つ情報をお届けします!"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+paginate: 12
+baseurl: 
+email: 'mail@ibstyle.tk'
+google_analytics: ''
+disqus: ''
+sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
+
+# Authors
+authors:
+  administrator:
+    name: IB Style Official
+    display_name: IB Style Official
+    gravatar: 8e7606fcd12b7f2855455f8fba0bbfa2f
+    web: https://ibstyle.tk/
+    twitter: https://twitter.com/ibstyle_pr
+    description: "IB Style公式アカウントです。"
+  kyosuke.miyamura:
+    name: Kyosuke
+    display_name: Kyosuke
+    gravatar: 8e7606fcd12b7f2855455f8fba0bbfa2f
+    web: https://twitter.com/ibstyle_pr
+    twitter: https://twitter.com/ibstyle_pr
+    description: "準備中"
+  mei.kanda:
+    name: Mei
+    display_name: Mei
+    gravatar: 8e7606fcd12b7f2855455f8fba0bbfa2f
+    web: https://twitter.com/ibstyle_pr
+    twitter: https://twitter.com/ibstyle_pr
+    description: "準備中"
+  shunsuke.nakayama:
+    name: Shunsuke
+    display_name: Shunsuke
+    gravatar: 8e7606fcd12b7f2855455f8fba0bbfa2f
+    web: https://twitter.com/ibstyle_pr
+    twitter: https://twitter.com/ibstyle_pr
+    description: "準備中"
+  koiki.kishi:
+    name: Koiki
+    display_name: Koiki
+    gravatar: 8e7606fcd12b7f2855455f8fba0bbfa2f
+    web: https://twitter.com/ibstyle_pr
+    twitter: https://twitter.com/ibstyle_pr
+    description: "準備中"
+  junya.eriguchi:
+    name: Junya
+    display_name: Junya
+    gravatar: 8e7606fcd12b7f2855455f8fba0bbfa2f
+    web: https://twitter.com/ibstyle_pr
+    twitter: https://twitter.com/ibstyle_pr
+    description: "準備中"
+  manami.fukushima:
+    name: Manami
+    display_name: Manami
+    gravatar: 8e7606fcd12b7f2855455f8fba0bbfa2f
+    web: https://twitter.com/ibstyle_pr
+    twitter: https://twitter.com/ibstyle_pr
+    description: "準備中"
+  miyu.osamura:
+    name: Miyu
+    display_name: Miyu
+    gravatar: 8e7606fcd12b7f2855455f8fba0bbfa2f
+    web: https://twitter.com/ibstyle_pr
+    twitter: https://twitter.com/ibstyle_pr
+    description: "準備中"
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Other
+permalink: '/posts/:slug/'
+markdown: kramdown
+highlighter: rouge
